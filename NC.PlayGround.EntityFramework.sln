@@ -12,6 +12,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9D6089
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53244CDC-A3A1-448E-AD70-EF1F8711A2C5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		build-ci.proj = build-ci.proj
+		LICENSE = LICENSE
+		NC.Playground.EntityFramework.nuspec = NC.Playground.EntityFramework.nuspec
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latest.ConsoleApplication", "Latest.ConsoleApplication\Latest.ConsoleApplication.csproj", "{1BBE2181-2333-4F53-9259-A9B984E01892}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +33,10 @@ Global
 		{30ACD82C-6011-45C0-A904-8542378505C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30ACD82C-6011-45C0-A904-8542378505C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30ACD82C-6011-45C0-A904-8542378505C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BBE2181-2333-4F53-9259-A9B984E01892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBE2181-2333-4F53-9259-A9B984E01892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBE2181-2333-4F53-9259-A9B984E01892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBE2181-2333-4F53-9259-A9B984E01892}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
