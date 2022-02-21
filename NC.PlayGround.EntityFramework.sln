@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latest", "src\Latest\Latest.csproj", "{30ACD82C-6011-45C0-A904-8542378505C7}"
 EndProject
@@ -15,13 +15,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53244CDC-A3A1-448E-AD70-EF1F8711A2C5}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		build-ci.proj = build-ci.proj
 		LICENSE = LICENSE
-		NC.Playground.EntityFramework.nuspec = NC.Playground.EntityFramework.nuspec
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latest.ConsoleApplication", "Latest.ConsoleApplication\Latest.ConsoleApplication.csproj", "{1BBE2181-2333-4F53-9259-A9B984E01892}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latest.ConsoleApplication", "src\Latest.ConsoleApplication\Latest.ConsoleApplication.csproj", "{1BBE2181-2333-4F53-9259-A9B984E01892}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,5 +38,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61A031EA-8D21-47C7-9EA3-087424270213}
 	EndGlobalSection
 EndGlobal
