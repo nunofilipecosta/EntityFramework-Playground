@@ -1,9 +1,11 @@
 ﻿using CostaSoftware.EFCorePlayground.DataAccess.Entities;
 using CostaSoftware.EFCorePlayground.DataAccess.Entities.ManyToMany;
 using CostaSoftware.EFCorePlayground.DataAccess.Entities.OneToOne;
+using CostaSoftware.EFCorePlayground.DataAccess.Entities.Self;
 using CostaSoftware.EFCorePlayground.DataAccess.TypeConfigurations;
 using CostaSoftware.EFCorePlayground.DataAccess.TypeConfigurations.ManyToMany;
 using CostaSoftware.EFCorePlayground.DataAccess.TypeConfigurations.OneToOne;
+using CostaSoftware.EFCorePlayground.DataAccess.TypeConfigurations.Self;
 using Microsoft.EntityFrameworkCore;
 
 namespace CostaSoftware.EFCorePlayground.DataAccess
@@ -20,6 +22,8 @@ namespace CostaSoftware.EFCorePlayground.DataAccess
 
         public DbSet<User> Users{ get; set; }
 
+        public DbSet<Employee> Employees { get; set; }
+
         public BloggingContext(DbContextOptions<BloggingContext> options)
                     : base(options)
         {
@@ -31,6 +35,7 @@ namespace CostaSoftware.EFCorePlayground.DataAccess
             modelBuilder.ApplyConfiguration<Post>(new PostEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration<Tenant>(new TenantEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration<User>(new UserEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration<Employee>(new EmployeeEntityTypeConfiguration());
 
             base.OnModelCreating(modelBuilder);
         }
