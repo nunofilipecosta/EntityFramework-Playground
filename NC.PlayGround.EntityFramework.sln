@@ -19,13 +19,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latest.ConsoleApplication", "src\Latest.ConsoleApplication\Latest.ConsoleApplication.csproj", "{1BBE2181-2333-4F53-9259-A9B984E01892}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EFCore", "EFCore", "{3C6975E5-30B1-4A47-AA50-0D753BBB7ED9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostaSoftware.EFCorePlayground.Api", "src\CostaSoftware.EFCorePlayground.Api\CostaSoftware.EFCorePlayground.Api.csproj", "{9B06E0D4-01CF-4724-82F5-8D5187A5237B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostaSoftware.EFCorePlayground.Api", "src\CostaSoftware.EFCorePlayground.Api\CostaSoftware.EFCorePlayground.Api.csproj", "{9B06E0D4-01CF-4724-82F5-8D5187A5237B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostaSoftware.EFCorePlayground.DataAccess", "src\CostaSoftware.EFCorePlayground.DataAccess\CostaSoftware.EFCorePlayground.DataAccess.csproj", "{9746D8CF-4969-4D4D-9E03-E52040E06EF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostaSoftware.EFCorePlayground.DataAccess", "src\CostaSoftware.EFCorePlayground.DataAccess\CostaSoftware.EFCorePlayground.DataAccess.csproj", "{9746D8CF-4969-4D4D-9E03-E52040E06EF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GettingStarted", "GettingStarted", "{EF6B4967-98B6-4601-90AA-8F4953FEF46B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostaSoftware.EFCorePlayground.SamuraiApp.Data", "src\CostaSoftware.EFCorePlayground.SamuraiApp.Data\CostaSoftware.EFCorePlayground.SamuraiApp.Data.csproj", "{0BA2EB97-0A08-41D7-A84D-EFCFDD28112C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostaSoftware.EFCorePlayground.SamuraiApp.Domain", "src\CostaSoftware.EFCorePlayground.SamuraiApp.Domain\CostaSoftware.EFCorePlayground.SamuraiApp.Domain.csproj", "{F4F682DF-C0E1-4483-9E45-B3A1197B131D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostaSoftware.EFCorePlayground.SamuraiApp.ConsoleUI", "src\CostaSoftware.EFCorePlayground.SamuraiApp.ConsoleUI\CostaSoftware.EFCorePlayground.SamuraiApp.ConsoleUI.csproj", "{5271B69C-7C08-4804-868D-FF9A04E7CCF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +43,6 @@ Global
 		{30ACD82C-6011-45C0-A904-8542378505C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30ACD82C-6011-45C0-A904-8542378505C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30ACD82C-6011-45C0-A904-8542378505C7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1BBE2181-2333-4F53-9259-A9B984E01892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1BBE2181-2333-4F53-9259-A9B984E01892}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1BBE2181-2333-4F53-9259-A9B984E01892}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1BBE2181-2333-4F53-9259-A9B984E01892}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9B06E0D4-01CF-4724-82F5-8D5187A5237B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9B06E0D4-01CF-4724-82F5-8D5187A5237B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B06E0D4-01CF-4724-82F5-8D5187A5237B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -49,6 +51,18 @@ Global
 		{9746D8CF-4969-4D4D-9E03-E52040E06EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9746D8CF-4969-4D4D-9E03-E52040E06EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9746D8CF-4969-4D4D-9E03-E52040E06EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA2EB97-0A08-41D7-A84D-EFCFDD28112C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA2EB97-0A08-41D7-A84D-EFCFDD28112C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA2EB97-0A08-41D7-A84D-EFCFDD28112C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA2EB97-0A08-41D7-A84D-EFCFDD28112C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F682DF-C0E1-4483-9E45-B3A1197B131D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F682DF-C0E1-4483-9E45-B3A1197B131D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F682DF-C0E1-4483-9E45-B3A1197B131D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F682DF-C0E1-4483-9E45-B3A1197B131D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5271B69C-7C08-4804-868D-FF9A04E7CCF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5271B69C-7C08-4804-868D-FF9A04E7CCF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5271B69C-7C08-4804-868D-FF9A04E7CCF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5271B69C-7C08-4804-868D-FF9A04E7CCF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +70,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9B06E0D4-01CF-4724-82F5-8D5187A5237B} = {3C6975E5-30B1-4A47-AA50-0D753BBB7ED9}
 		{9746D8CF-4969-4D4D-9E03-E52040E06EF5} = {3C6975E5-30B1-4A47-AA50-0D753BBB7ED9}
+		{0BA2EB97-0A08-41D7-A84D-EFCFDD28112C} = {EF6B4967-98B6-4601-90AA-8F4953FEF46B}
+		{F4F682DF-C0E1-4483-9E45-B3A1197B131D} = {EF6B4967-98B6-4601-90AA-8F4953FEF46B}
+		{5271B69C-7C08-4804-868D-FF9A04E7CCF0} = {EF6B4967-98B6-4601-90AA-8F4953FEF46B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61A031EA-8D21-47C7-9EA3-087424270213}
